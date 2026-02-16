@@ -1,0 +1,1 @@
+/root/ros2_ws/src/mujoco_msgs/msg/Control.msg

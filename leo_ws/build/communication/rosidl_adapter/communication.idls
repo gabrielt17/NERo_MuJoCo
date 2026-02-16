@@ -1,0 +1,5 @@
+/workspaces/ros_humble_mujoco_leo/leo/build/communication/rosidl_adapter/communication:msg/ActuatorCmds.idl
+/workspaces/ros_humble_mujoco_leo/leo/build/communication/rosidl_adapter/communication:msg/MotionCommands.idl
+/workspaces/ros_humble_mujoco_leo/leo/build/communication/rosidl_adapter/communication:msg/TouchSensor.idl
+/workspaces/ros_humble_mujoco_leo/leo/build/communication/rosidl_adapter/communication:srv/SimulationReset.idl
+/workspaces/ros_humble_mujoco_leo/leo/build/communication/rosidl_adapter/communication:srv/GaitSwitch.idl

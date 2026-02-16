@@ -1,0 +1,1 @@
+/root/ros2_ws/build/communication/rosidl_generator_py/communication/msg/_actuator_cmds_s.c

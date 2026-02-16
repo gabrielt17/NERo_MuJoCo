@@ -1,0 +1,1 @@
+/root/ros2_ws/build/communication/rosidl_generator_c/communication/srv/detail/simulation_reset__struct.h

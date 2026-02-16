@@ -1,0 +1,202 @@
+[0.017s] Invoking command in '/workspaces/ros_humble_mujoco_leo/leo/build/mujoco_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/ros_humble_mujoco_leo/leo/ros2_ws/src/mujoco_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs
+[0.154s] -- The C compiler identification is GNU 11.4.0
+[0.241s] -- The CXX compiler identification is GNU 11.4.0
+[0.251s] -- Detecting C compiler ABI info
+[0.315s] -- Detecting C compiler ABI info - done
+[0.321s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.321s] -- Detecting C compile features
+[0.321s] -- Detecting C compile features - done
+[0.324s] -- Detecting CXX compiler ABI info
+[0.390s] -- Detecting CXX compiler ABI info - done
+[0.395s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.395s] -- Detecting CXX compile features
+[0.395s] -- Detecting CXX compile features - done
+[0.406s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.532s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.585s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.641s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.704s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.713s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.726s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.746s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.769s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.804s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.838s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.053s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.455s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.472s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.476s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.501s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.501s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.501s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.501s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.518s] -- Found PythonExtra: .so  
+[1.568s] -- Configuring done
+[1.599s] -- Generating done
+[1.609s] -- Build files have been written to: /workspaces/ros_humble_mujoco_leo/leo/build/mujoco_msgs
+[1.616s] Invoked command in '/workspaces/ros_humble_mujoco_leo/leo/build/mujoco_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/ros_humble_mujoco_leo/leo/ros2_ws/src/mujoco_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs
+[1.618s] Invoking command in '/workspaces/ros_humble_mujoco_leo/leo/build/mujoco_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/ros_humble_mujoco_leo/leo/build/mujoco_msgs -- -j16 -l16
+[1.653s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.662s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.669s] [  6%] Built target ament_cmake_python_symlink_mujoco_msgs
+[1.839s] [  6%] Built target mujoco_msgs__cpp
+[1.843s] [  9%] [32mBuilding C object CMakeFiles/mujoco_msgs__rosidl_generator_c.dir/rosidl_generator_c/mujoco_msgs/msg/detail/control__functions.c.o[0m
+[1.848s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.849s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.849s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.878s] running egg_info
+[1.878s] creating mujoco_msgs.egg-info
+[1.879s] writing mujoco_msgs.egg-info/PKG-INFO
+[1.879s] writing dependency_links to mujoco_msgs.egg-info/dependency_links.txt
+[1.879s] writing top-level names to mujoco_msgs.egg-info/top_level.txt
+[1.879s] writing manifest file 'mujoco_msgs.egg-info/SOURCES.txt'
+[1.881s] reading manifest file 'mujoco_msgs.egg-info/SOURCES.txt'
+[1.881s] writing manifest file 'mujoco_msgs.egg-info/SOURCES.txt'
+[1.910s] [ 19%] Built target ament_cmake_python_build_mujoco_msgs_egg
+[1.910s] [ 22%] [32m[1mLinking C shared library libmujoco_msgs__rosidl_generator_c.so[0m
+[1.945s] [ 22%] Built target mujoco_msgs__rosidl_generator_c
+[1.954s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.954s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.957s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.038s] [ 35%] [32mBuilding CXX object CMakeFiles/mujoco_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mujoco_msgs/msg/control__type_support.cpp.o[0m
+[2.050s] [ 38%] [32mBuilding CXX object CMakeFiles/mujoco_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mujoco_msgs/msg/detail/control__type_support.cpp.o[0m
+[2.072s] [ 41%] [32mBuilding CXX object CMakeFiles/mujoco_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mujoco_msgs/msg/detail/dds_fastrtps/control__type_support.cpp.o[0m
+[2.155s] [ 45%] [32mBuilding CXX object CMakeFiles/mujoco_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mujoco_msgs/msg/control__type_support.cpp.o[0m
+[2.164s] [ 48%] [32mBuilding C object CMakeFiles/mujoco_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mujoco_msgs/msg/detail/control__type_support.c.o[0m
+[2.185s] [ 51%] [32m[1mLinking CXX shared library libmujoco_msgs__rosidl_typesupport_c.so[0m
+[2.192s] [ 54%] [32mBuilding CXX object CMakeFiles/mujoco_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mujoco_msgs/msg/detail/control__type_support_c.cpp.o[0m
+[2.198s] [ 58%] [32m[1mLinking C shared library libmujoco_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.229s] [ 58%] Built target mujoco_msgs__rosidl_typesupport_introspection_c
+[2.229s] [ 58%] Built target mujoco_msgs__rosidl_typesupport_c
+[2.349s] [ 61%] [32m[1mLinking CXX shared library libmujoco_msgs__rosidl_typesupport_cpp.so[0m
+[2.388s] [ 61%] Built target mujoco_msgs__rosidl_typesupport_cpp
+[2.428s] [ 64%] [32m[1mLinking CXX shared library libmujoco_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.455s] [ 67%] [32m[1mLinking CXX shared library libmujoco_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.497s] [ 70%] [32m[1mLinking CXX shared library libmujoco_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.499s] [ 70%] Built target mujoco_msgs__rosidl_typesupport_introspection_cpp
+[2.533s] [ 70%] Built target mujoco_msgs__rosidl_typesupport_fastrtps_cpp
+[2.568s] [ 70%] Built target mujoco_msgs__rosidl_typesupport_fastrtps_c
+[2.588s] [ 70%] Built target mujoco_msgs
+[2.607s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.095s] [ 74%] Built target mujoco_msgs__py
+[3.122s] [ 77%] [32mBuilding C object CMakeFiles/mujoco_msgs__rosidl_generator_py.dir/rosidl_generator_py/mujoco_msgs/msg/_control_s.c.o[0m
+[3.317s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/mujoco_msgs/libmujoco_msgs__rosidl_generator_py.so[0m
+[3.365s] [ 80%] Built target mujoco_msgs__rosidl_generator_py
+[3.396s] [ 87%] [32mBuilding C object CMakeFiles/mujoco_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mujoco_msgs/_mujoco_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.397s] [ 87%] [32mBuilding C object CMakeFiles/mujoco_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mujoco_msgs/_mujoco_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.404s] [ 90%] [32mBuilding C object CMakeFiles/mujoco_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mujoco_msgs/_mujoco_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.490s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/mujoco_msgs/mujoco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.490s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/mujoco_msgs/mujoco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.505s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mujoco_msgs/mujoco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.526s] [100%] Built target mujoco_msgs__rosidl_typesupport_c__pyext
+[3.526s] [100%] Built target mujoco_msgs__rosidl_typesupport_introspection_c__pyext
+[3.542s] [100%] Built target mujoco_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.554s] Invoked command in '/workspaces/ros_humble_mujoco_leo/leo/build/mujoco_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/ros_humble_mujoco_leo/leo/build/mujoco_msgs -- -j16 -l16
+[3.562s] Invoking command in '/workspaces/ros_humble_mujoco_leo/leo/build/mujoco_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/ros_humble_mujoco_leo/leo/build/mujoco_msgs
+[3.569s] -- Install configuration: ""
+[3.569s] -- Execute custom install script
+[3.570s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/ament_index/resource_index/rosidl_interfaces/mujoco_msgs
+[3.577s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/control.h
+[3.585s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__functions.h
+[3.592s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__struct.h
+[3.599s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__type_support.h
+[3.606s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.615s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/environment/library_path.sh
+[3.623s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/environment/library_path.dsv
+[3.631s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__rosidl_typesupport_fastrtps_c.h
+[3.639s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.647s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/control.hpp
+[3.654s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__builder.hpp
+[3.662s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__struct.hpp
+[3.670s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__traits.hpp
+[3.678s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__type_support.hpp
+[3.686s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.694s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__rosidl_typesupport_fastrtps_cpp.hpp
+[3.701s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.709s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__rosidl_typesupport_introspection_c.h
+[3.717s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.726s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__rosidl_typesupport_introspection_cpp.hpp
+[3.734s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/environment/pythonpath.sh
+[3.742s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/environment/pythonpath.dsv
+[3.749s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.756s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.764s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.771s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.779s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/__init__.py
+[3.786s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/_mujoco_msgs_s.ep.rosidl_typesupport_c.c
+[3.794s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/_mujoco_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.801s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/_mujoco_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.809s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/libmujoco_msgs__rosidl_generator_py.so
+[3.819s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/msg/__init__.py
+[3.828s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/msg/_control.py
+[3.836s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/msg/_control_s.c
+[3.844s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/mujoco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.852s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/mujoco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.859s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/mujoco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.867s] -- Up-to-date symlink: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/mujoco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.867s] -- Up-to-date symlink: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/mujoco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.868s] -- Up-to-date symlink: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/mujoco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.868s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/msg/Control.idl
+[3.876s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/msg/Control.msg
+[3.883s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/ament_index/resource_index/package_run_dependencies/mujoco_msgs
+[3.890s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/ament_index/resource_index/parent_prefix_path/mujoco_msgs
+[3.896s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/environment/ament_prefix_path.sh
+[3.903s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/environment/ament_prefix_path.dsv
+[3.910s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/environment/path.sh
+[3.918s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/environment/path.dsv
+[3.926s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/local_setup.bash
+[3.934s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/local_setup.sh
+[3.941s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/local_setup.zsh
+[3.948s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/local_setup.dsv
+[3.956s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/package.dsv
+[3.963s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/ament_index/resource_index/packages/mujoco_msgs
+[3.970s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/rosidl_cmake-extras.cmake
+[3.977s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.984s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.991s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.998s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.005s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.013s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.022s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgsConfig.cmake
+[4.030s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgsConfig-version.cmake
+[4.040s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/package.xml
+[4.048s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_generator_c.so
+[4.048s] -- Set runtime path of "/workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_generator_c.so" to ""
+[4.048s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_fastrtps_c.so
+[4.048s] -- Set runtime path of "/workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.048s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.049s] -- Set runtime path of "/workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.049s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_introspection_c.so
+[4.049s] -- Set runtime path of "/workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.049s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_c.so
+[4.049s] -- Set runtime path of "/workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_c.so" to ""
+[4.049s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_introspection_cpp.so
+[4.050s] -- Set runtime path of "/workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.050s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_cpp.so
+[4.050s] -- Set runtime path of "/workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_cpp.so" to ""
+[4.078s] Listing '/workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs'...
+[4.078s] Compiling '/workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/__init__.py'...
+[4.078s] Listing '/workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/msg'...
+[4.078s] Compiling '/workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/msg/__init__.py'...
+[4.078s] Compiling '/workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/msg/_control.py'...
+[4.081s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_generator_py.so
+[4.081s] -- Set runtime path of "/workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_generator_py.so" to ""
+[4.081s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_generator_cExport.cmake
+[4.082s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.082s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.082s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.082s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_generator_cppExport.cmake
+[4.082s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.083s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.083s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.083s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.083s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgs__rosidl_typesupport_cExport.cmake
+[4.083s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.083s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.083s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.084s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgs__rosidl_typesupport_cppExport.cmake
+[4.084s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.084s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_generator_pyExport.cmake
+[4.084s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.086s] Invoked command in '/workspaces/ros_humble_mujoco_leo/leo/build/mujoco_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/ros_humble_mujoco_leo/leo/build/mujoco_msgs

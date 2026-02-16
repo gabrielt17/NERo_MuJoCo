@@ -1,0 +1,1 @@
+/root/ros2_ws/build/communication/rosidl_cmake/srv/SimulationReset_Request.msg

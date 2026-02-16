@@ -1,0 +1,1 @@
+/root/ros2_ws/src/aerial_transportation_mujoco_python/launch/simulation_launch.py
