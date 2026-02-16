@@ -1,0 +1,4 @@
+[console_scripts]
+drones_simulation = aerial_system_mujoco.drones_simulation:main
+ropes_simulation = aerial_system_mujoco.ropes_simulation:main
+

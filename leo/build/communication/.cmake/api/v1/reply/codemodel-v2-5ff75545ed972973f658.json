@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3cba729c22a951d50c64.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "communication__py",
+					"jsonFile" : "directory-communication__py-48531ce25650889245df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/workspaces/ros_humble_mujoco_leo/leo/build/communication/communication__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "communication",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_communication_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_communication_egg-9d4ffef59a48bbeacd99.json",
+					"name" : "ament_cmake_python_build_communication_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_communication::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_communication-abc24d68e21296e877d1.json",
+					"name" : "ament_cmake_python_symlink_communication",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication-d51228012a3f6fa3ff33.json",
+					"name" : "communication",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication__cpp-cd5aae7c33093d03c9aa.json",
+					"name" : "communication__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "communication__py::@9ddfbdd531dd23f1e2c4",
+					"jsonFile" : "target-communication__py-213bd4401b80eee006e9.json",
+					"name" : "communication__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication__rosidl_generator_c-7f637066088ee79e3d38.json",
+					"name" : "communication__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication__rosidl_generator_py-2da7912d3bb3feca85ae.json",
+					"name" : "communication__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication__rosidl_typesupport_c-731b94d6b7859f8a294b.json",
+					"name" : "communication__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication__rosidl_typesupport_c__pyext-04aad1bdfd4ae457e2d5.json",
+					"name" : "communication__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication__rosidl_typesupport_cpp-e0a73e8c0ed5ffcd173b.json",
+					"name" : "communication__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication__rosidl_typesupport_fastrtps_c-775daec2104f5a15c902.json",
+					"name" : "communication__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication__rosidl_typesupport_fastrtps_c__pyext-a7681679289062cfbc2e.json",
+					"name" : "communication__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication__rosidl_typesupport_fastrtps_cpp-57a4a6c03641ac181947.json",
+					"name" : "communication__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication__rosidl_typesupport_introspection_c-5a98be91d4b89a3ef47e.json",
+					"name" : "communication__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication__rosidl_typesupport_introspection_c__pyext-b38f3ea0099fa913e7ee.json",
+					"name" : "communication__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication__rosidl_typesupport_introspection_cpp-9e05959aa2bada025736.json",
+					"name" : "communication__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "communication_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-communication_uninstall-2de2e7a85258a7b02164.json",
+					"name" : "communication_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f291524a892b149cc0dc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/ros_humble_mujoco_leo/leo/build/communication",
+		"source" : "/workspaces/ros_humble_mujoco_leo/leo/ros2_ws/src/communication"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

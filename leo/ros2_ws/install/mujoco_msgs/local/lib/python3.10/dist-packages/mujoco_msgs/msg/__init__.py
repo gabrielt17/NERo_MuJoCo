@@ -1,0 +1,1 @@
+/root/ros2_ws/build/mujoco_msgs/rosidl_generator_py/mujoco_msgs/msg/__init__.py

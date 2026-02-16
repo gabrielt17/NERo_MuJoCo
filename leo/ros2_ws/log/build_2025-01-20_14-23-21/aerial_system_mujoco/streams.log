@@ -1,0 +1,31 @@
+[0.355s] Invoking command in '/root/ros2_ws/build/aerial_system_mujoco': AMENT_PREFIX_PATH=/root/ros2_ws/install/mujoco_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/mujoco_msgs LD_LIBRARY_PATH=/root/ros2_ws/install/mujoco_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/aerial_system_mujoco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/aerial_system_mujoco/lib/python3.10/site-packages:/root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/aerial_system_mujoco/build --no-deps symlink_data
+[0.503s] running develop
+[0.573s] running egg_info
+[0.573s] creating aerial_system_mujoco.egg-info
+[0.574s] writing aerial_system_mujoco.egg-info/PKG-INFO
+[0.574s] writing dependency_links to aerial_system_mujoco.egg-info/dependency_links.txt
+[0.574s] writing entry points to aerial_system_mujoco.egg-info/entry_points.txt
+[0.574s] writing requirements to aerial_system_mujoco.egg-info/requires.txt
+[0.574s] writing top-level names to aerial_system_mujoco.egg-info/top_level.txt
+[0.574s] writing manifest file 'aerial_system_mujoco.egg-info/SOURCES.txt'
+[0.575s] reading manifest file 'aerial_system_mujoco.egg-info/SOURCES.txt'
+[0.575s] writing manifest file 'aerial_system_mujoco.egg-info/SOURCES.txt'
+[0.576s] running build_ext
+[0.576s] Creating /root/ros2_ws/install/aerial_system_mujoco/lib/python3.10/site-packages/aerial-system-mujoco.egg-link (link to .)
+[0.576s] Installing drones_simulation script to /root/ros2_ws/install/aerial_system_mujoco/lib/aerial_system_mujoco
+[0.576s] Installing ropes_simulation script to /root/ros2_ws/install/aerial_system_mujoco/lib/aerial_system_mujoco
+[0.576s] 
+[0.577s] Installed /root/ros2_ws/build/aerial_system_mujoco
+[0.577s] running symlink_data
+[0.577s] creating /root/ros2_ws/install/aerial_system_mujoco/share/ament_index
+[0.577s] creating /root/ros2_ws/install/aerial_system_mujoco/share/ament_index/resource_index
+[0.577s] creating /root/ros2_ws/install/aerial_system_mujoco/share/ament_index/resource_index/packages
+[0.577s] symbolically linking /root/ros2_ws/build/aerial_system_mujoco/resource/aerial_system_mujoco -> /root/ros2_ws/install/aerial_system_mujoco/share/ament_index/resource_index/packages
+[0.577s] symbolically linking /root/ros2_ws/build/aerial_system_mujoco/package.xml -> /root/ros2_ws/install/aerial_system_mujoco/share/aerial_system_mujoco
+[0.577s] creating /root/ros2_ws/install/aerial_system_mujoco/share/aerial_system_mujoco/launch
+[0.577s] symbolically linking /root/ros2_ws/build/aerial_system_mujoco/launch/simulation_launch.py -> /root/ros2_ws/install/aerial_system_mujoco/share/aerial_system_mujoco/launch
+[0.577s] creating /root/ros2_ws/install/aerial_system_mujoco/share/aerial_system_mujoco/model
+[0.577s] symbolically linking /root/ros2_ws/build/aerial_system_mujoco/model/xml/balloons.xml -> /root/ros2_ws/install/aerial_system_mujoco/share/aerial_system_mujoco/model
+[0.577s] symbolically linking /root/ros2_ws/build/aerial_system_mujoco/model/xml/model_1.xml -> /root/ros2_ws/install/aerial_system_mujoco/share/aerial_system_mujoco/model
+[0.577s] symbolically linking /root/ros2_ws/build/aerial_system_mujoco/model/xml/drone_payload.xml -> /root/ros2_ws/install/aerial_system_mujoco/share/aerial_system_mujoco/model
+[0.592s] Invoked command in '/root/ros2_ws/build/aerial_system_mujoco' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/mujoco_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/mujoco_msgs LD_LIBRARY_PATH=/root/ros2_ws/install/mujoco_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/aerial_system_mujoco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/aerial_system_mujoco/lib/python3.10/site-packages:/root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/aerial_system_mujoco/build --no-deps symlink_data

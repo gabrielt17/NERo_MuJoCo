@@ -1,0 +1,6 @@
+{
+  "package_name": "mujoco_msgs",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/mujoco_msgs:msg/Control.msg"
+  ]
+}

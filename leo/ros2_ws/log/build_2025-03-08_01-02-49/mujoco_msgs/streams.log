@@ -1,0 +1,120 @@
+[0.012s] Invoking command in '/root/ros2_ws/build/mujoco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/aerial_system_mujoco:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/mujoco_msgs -- -j16 -l16
+[0.172s] [  3%] Built target mujoco_msgs__cpp
+[0.190s] [  3%] Built target ament_cmake_python_symlink_mujoco_msgs
+[0.193s] [ 12%] Built target mujoco_msgs__rosidl_generator_c
+[0.252s] [ 29%] Built target mujoco_msgs__rosidl_typesupport_fastrtps_cpp
+[0.253s] [ 32%] Built target mujoco_msgs__rosidl_typesupport_introspection_cpp
+[0.254s] [ 41%] Built target mujoco_msgs__rosidl_typesupport_cpp
+[0.269s] [ 51%] Built target mujoco_msgs__rosidl_typesupport_introspection_c
+[0.270s] [ 61%] Built target mujoco_msgs__rosidl_typesupport_c
+[0.279s] [ 70%] Built target mujoco_msgs__rosidl_typesupport_fastrtps_c
+[0.298s] [ 70%] Built target mujoco_msgs
+[0.313s] [ 74%] Built target mujoco_msgs__py
+[0.335s] [ 80%] Built target mujoco_msgs__rosidl_generator_py
+[0.352s] [ 87%] Built target mujoco_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.352s] [ 93%] Built target mujoco_msgs__rosidl_typesupport_c__pyext
+[0.354s] [100%] Built target mujoco_msgs__rosidl_typesupport_introspection_c__pyext
+[0.415s] running egg_info
+[0.415s] writing mujoco_msgs.egg-info/PKG-INFO
+[0.415s] writing dependency_links to mujoco_msgs.egg-info/dependency_links.txt
+[0.415s] writing top-level names to mujoco_msgs.egg-info/top_level.txt
+[0.417s] reading manifest file 'mujoco_msgs.egg-info/SOURCES.txt'
+[0.417s] writing manifest file 'mujoco_msgs.egg-info/SOURCES.txt'
+[0.434s] [100%] Built target ament_cmake_python_build_mujoco_msgs_egg
+[0.441s] Invoked command in '/root/ros2_ws/build/mujoco_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/aerial_system_mujoco:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/mujoco_msgs -- -j16 -l16
+[0.447s] Invoking command in '/root/ros2_ws/build/mujoco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/aerial_system_mujoco:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/mujoco_msgs
+[0.452s] -- Install configuration: ""
+[0.453s] -- Execute custom install script
+[0.454s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/ament_index/resource_index/rosidl_interfaces/mujoco_msgs
+[0.455s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/control.h
+[0.455s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__functions.h
+[0.455s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__struct.h
+[0.455s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__type_support.h
+[0.455s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.455s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/environment/library_path.sh
+[0.456s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/environment/library_path.dsv
+[0.456s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__rosidl_typesupport_fastrtps_c.h
+[0.456s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.456s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/control.hpp
+[0.456s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__builder.hpp
+[0.456s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__struct.hpp
+[0.457s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__traits.hpp
+[0.457s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__type_support.hpp
+[0.457s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.457s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__rosidl_typesupport_fastrtps_cpp.hpp
+[0.457s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.458s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__rosidl_typesupport_introspection_c.h
+[0.458s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.458s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/include/mujoco_msgs/mujoco_msgs/msg/detail/control__rosidl_typesupport_introspection_cpp.hpp
+[0.458s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/environment/pythonpath.sh
+[0.458s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/environment/pythonpath.dsv
+[0.458s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.459s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.459s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.459s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[0.459s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/__init__.py
+[0.459s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/_mujoco_msgs_s.ep.rosidl_typesupport_c.c
+[0.460s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/_mujoco_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.460s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/_mujoco_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.460s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/libmujoco_msgs__rosidl_generator_py.so
+[0.460s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/msg/__init__.py
+[0.460s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/msg/_control.py
+[0.461s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/msg/_control_s.c
+[0.461s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/mujoco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.461s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/mujoco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.461s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/mujoco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.461s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/mujoco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.461s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/mujoco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.461s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/mujoco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.461s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/msg/Control.idl
+[0.461s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/msg/Control.msg
+[0.461s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/ament_index/resource_index/package_run_dependencies/mujoco_msgs
+[0.461s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/ament_index/resource_index/parent_prefix_path/mujoco_msgs
+[0.462s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/environment/ament_prefix_path.sh
+[0.462s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/environment/ament_prefix_path.dsv
+[0.462s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/environment/path.sh
+[0.462s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/environment/path.dsv
+[0.462s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/local_setup.bash
+[0.462s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/local_setup.sh
+[0.462s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/local_setup.zsh
+[0.462s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/local_setup.dsv
+[0.462s] -- Symlinking: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/package.dsv
+[0.468s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/ament_index/resource_index/packages/mujoco_msgs
+[0.468s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/rosidl_cmake-extras.cmake
+[0.469s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.469s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.469s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.469s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.469s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.469s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.469s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgsConfig.cmake
+[0.469s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgsConfig-version.cmake
+[0.470s] -- Up-to-date symlink: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/package.xml
+[0.470s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_generator_c.so
+[0.470s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_fastrtps_c.so
+[0.470s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.470s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_introspection_c.so
+[0.470s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_c.so
+[0.471s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_introspection_cpp.so
+[0.471s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_typesupport_cpp.so
+[0.502s] Listing '/root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs'...
+[0.502s] Listing '/root/ros2_ws/install/mujoco_msgs/local/lib/python3.10/dist-packages/mujoco_msgs/msg'...
+[0.504s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/lib/libmujoco_msgs__rosidl_generator_py.so
+[0.505s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_generator_cExport.cmake
+[0.505s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.506s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.506s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.506s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_generator_cppExport.cmake
+[0.506s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.506s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.507s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.507s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.507s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgs__rosidl_typesupport_cExport.cmake
+[0.507s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.508s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.508s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.508s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgs__rosidl_typesupport_cppExport.cmake
+[0.508s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/mujoco_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.508s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_generator_pyExport.cmake
+[0.509s] -- Up-to-date: /root/ros2_ws/install/mujoco_msgs/share/mujoco_msgs/cmake/export_mujoco_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.511s] Invoked command in '/root/ros2_ws/build/mujoco_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/aerial_system_mujoco:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/mujoco_msgs

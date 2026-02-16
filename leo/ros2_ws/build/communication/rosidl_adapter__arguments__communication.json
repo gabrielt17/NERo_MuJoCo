@@ -1,0 +1,10 @@
+{
+  "package_name": "communication",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/communication:msg/ActuatorCmds.msg",
+    "/root/ros2_ws/src/communication:msg/MotionCommands.msg",
+    "/root/ros2_ws/src/communication:msg/TouchSensor.msg",
+    "/root/ros2_ws/src/communication:srv/SimulationReset.srv",
+    "/root/ros2_ws/src/communication:srv/GaitSwitch.srv"
+  ]
+}

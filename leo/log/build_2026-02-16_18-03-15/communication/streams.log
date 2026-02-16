@@ -1,0 +1,314 @@
+[0.011s] Invoking command in '/workspaces/ros_humble_mujoco_leo/leo/build/communication': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/ros_humble_mujoco_leo/leo/ros2_ws/src/communication -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros_humble_mujoco_leo/leo/install/communication
+[0.144s] -- The C compiler identification is GNU 11.4.0
+[0.231s] -- The CXX compiler identification is GNU 11.4.0
+[0.241s] -- Detecting C compiler ABI info
+[0.305s] -- Detecting C compiler ABI info - done
+[0.310s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.310s] -- Detecting C compile features
+[0.311s] -- Detecting C compile features - done
+[0.314s] -- Detecting CXX compiler ABI info
+[0.379s] -- Detecting CXX compiler ABI info - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.384s] -- Detecting CXX compile features
+[0.385s] -- Detecting CXX compile features - done
+[0.396s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.521s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.575s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.631s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.694s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.703s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.716s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.736s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.759s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.793s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.813s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.833s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.091s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.461s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.609s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.626s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.629s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.651s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.651s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.651s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.651s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.668s] -- Found PythonExtra: .so  
+[1.735s] -- Configuring done
+[1.773s] -- Generating done
+[1.783s] -- Build files have been written to: /workspaces/ros_humble_mujoco_leo/leo/build/communication
+[1.791s] Invoked command in '/workspaces/ros_humble_mujoco_leo/leo/build/communication' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspaces/ros_humble_mujoco_leo/leo/ros2_ws/src/communication -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ros_humble_mujoco_leo/leo/install/communication
+[1.792s] Invoking command in '/workspaces/ros_humble_mujoco_leo/leo/build/communication': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/ros_humble_mujoco_leo/leo/build/communication -- -j16 -l16
+[1.832s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.841s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.848s] [  3%] Built target ament_cmake_python_symlink_communication
+[2.092s] running egg_info
+[2.092s] creating communication.egg-info
+[2.092s] writing communication.egg-info/PKG-INFO
+[2.092s] writing dependency_links to communication.egg-info/dependency_links.txt
+[2.093s] writing top-level names to communication.egg-info/top_level.txt
+[2.093s] writing manifest file 'communication.egg-info/SOURCES.txt'
+[2.095s] reading manifest file 'communication.egg-info/SOURCES.txt'
+[2.095s] writing manifest file 'communication.egg-info/SOURCES.txt'
+[2.128s] [  3%] Built target ament_cmake_python_build_communication_egg
+[2.266s] [  4%] [32mBuilding C object CMakeFiles/communication__rosidl_generator_c.dir/rosidl_generator_c/communication/msg/detail/motion_commands__functions.c.o[0m
+[2.267s] [  6%] [32mBuilding C object CMakeFiles/communication__rosidl_generator_c.dir/rosidl_generator_c/communication/msg/detail/actuator_cmds__functions.c.o[0m
+[2.268s] [  7%] [32mBuilding C object CMakeFiles/communication__rosidl_generator_c.dir/rosidl_generator_c/communication/msg/detail/touch_sensor__functions.c.o[0m
+[2.272s] [  9%] [32mBuilding C object CMakeFiles/communication__rosidl_generator_c.dir/rosidl_generator_c/communication/srv/detail/gait_switch__functions.c.o[0m
+[2.272s] [ 11%] [32mBuilding C object CMakeFiles/communication__rosidl_generator_c.dir/rosidl_generator_c/communication/srv/detail/simulation_reset__functions.c.o[0m
+[2.282s] [ 11%] Built target communication__cpp
+[2.292s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.296s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.296s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.343s] [ 17%] [32m[1mLinking C shared library libcommunication__rosidl_generator_c.so[0m
+[2.379s] [ 17%] Built target communication__rosidl_generator_c
+[2.390s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.391s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.392s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.594s] [ 25%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication/srv/simulation_reset__type_support.cpp.o[0m
+[2.594s] [ 25%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication/srv/gait_switch__type_support.cpp.o[0m
+[2.595s] [ 26%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication/msg/actuator_cmds__type_support.cpp.o[0m
+[2.595s] [ 30%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication/msg/motion_commands__type_support.cpp.o[0m
+[2.595s] [ 30%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication/msg/touch_sensor__type_support.cpp.o[0m
+[2.658s] [ 33%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication/msg/detail/touch_sensor__type_support.cpp.o[0m
+[2.658s] [ 33%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication/msg/detail/actuator_cmds__type_support.cpp.o[0m
+[2.658s] [ 34%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication/msg/detail/motion_commands__type_support.cpp.o[0m
+[2.658s] [ 36%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication/srv/detail/simulation_reset__type_support.cpp.o[0m
+[2.658s] [ 38%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication/srv/detail/gait_switch__type_support.cpp.o[0m
+[2.768s] [ 41%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication/msg/detail/dds_fastrtps/actuator_cmds__type_support.cpp.o[0m
+[2.768s] [ 41%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication/msg/detail/dds_fastrtps/motion_commands__type_support.cpp.o[0m
+[2.771s] [ 42%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication/msg/detail/dds_fastrtps/touch_sensor__type_support.cpp.o[0m
+[2.781s] [ 44%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication/msg/actuator_cmds__type_support.cpp.o[0m
+[2.862s] [ 46%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication/msg/motion_commands__type_support.cpp.o[0m
+[2.902s] [ 47%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication/msg/touch_sensor__type_support.cpp.o[0m
+[2.928s] [ 52%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication/srv/simulation_reset__type_support.cpp.o[0m
+[2.928s] [ 52%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication/srv/detail/dds_fastrtps/gait_switch__type_support.cpp.o[0m
+[2.928s] [ 52%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication/srv/detail/dds_fastrtps/simulation_reset__type_support.cpp.o[0m
+[2.935s] [ 53%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication/srv/gait_switch__type_support.cpp.o[0m
+[2.945s] [ 57%] [32mBuilding C object CMakeFiles/communication__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication/msg/detail/motion_commands__type_support.c.o[0m
+[2.946s] [ 57%] [32m[1mLinking CXX shared library libcommunication__rosidl_typesupport_cpp.so[0m
+[2.948s] [ 58%] [32mBuilding C object CMakeFiles/communication__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication/msg/detail/actuator_cmds__type_support.c.o[0m
+[2.975s] [ 60%] [32mBuilding C object CMakeFiles/communication__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication/msg/detail/touch_sensor__type_support.c.o[0m
+[2.980s] [ 61%] [32m[1mLinking CXX shared library libcommunication__rosidl_typesupport_c.so[0m
+[2.992s] [ 63%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication/msg/detail/actuator_cmds__type_support_c.cpp.o[0m
+[3.001s] [ 65%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication/msg/detail/motion_commands__type_support_c.cpp.o[0m
+[3.004s] [ 65%] Built target communication__rosidl_typesupport_cpp
+[3.026s] [ 66%] [32mBuilding C object CMakeFiles/communication__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication/srv/detail/simulation_reset__type_support.c.o[0m
+[3.036s] [ 68%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication/msg/detail/touch_sensor__type_support_c.cpp.o[0m
+[3.049s] [ 69%] [32mBuilding C object CMakeFiles/communication__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication/srv/detail/gait_switch__type_support.c.o[0m
+[3.056s] [ 69%] Built target communication__rosidl_typesupport_c
+[3.069s] [ 71%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication/srv/detail/simulation_reset__type_support_c.cpp.o[0m
+[3.121s] [ 73%] [32mBuilding CXX object CMakeFiles/communication__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication/srv/detail/gait_switch__type_support_c.cpp.o[0m
+[3.141s] [ 74%] [32m[1mLinking C shared library libcommunication__rosidl_typesupport_introspection_c.so[0m
+[3.201s] [ 74%] Built target communication__rosidl_typesupport_introspection_c
+[3.230s] [ 76%] [32m[1mLinking CXX shared library libcommunication__rosidl_typesupport_introspection_cpp.so[0m
+[3.353s] [ 76%] Built target communication__rosidl_typesupport_introspection_cpp
+[3.443s] [ 77%] [32m[1mLinking CXX shared library libcommunication__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.480s] [ 79%] [32m[1mLinking CXX shared library libcommunication__rosidl_typesupport_fastrtps_c.so[0m
+[3.524s] [ 79%] Built target communication__rosidl_typesupport_fastrtps_cpp
+[3.551s] [ 79%] Built target communication__rosidl_typesupport_fastrtps_c
+[3.568s] [ 79%] Built target communication
+[3.587s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.161s] [ 80%] Built target communication__py
+[4.179s] [ 85%] [32mBuilding C object CMakeFiles/communication__rosidl_generator_py.dir/rosidl_generator_py/communication/msg/_motion_commands_s.c.o[0m
+[4.179s] [ 85%] [32mBuilding C object CMakeFiles/communication__rosidl_generator_py.dir/rosidl_generator_py/communication/msg/_touch_sensor_s.c.o[0m
+[4.179s] [ 85%] [32mBuilding C object CMakeFiles/communication__rosidl_generator_py.dir/rosidl_generator_py/communication/msg/_actuator_cmds_s.c.o[0m
+[4.179s] [ 87%] [32mBuilding C object CMakeFiles/communication__rosidl_generator_py.dir/rosidl_generator_py/communication/srv/_simulation_reset_s.c.o[0m
+[4.179s] [ 88%] [32mBuilding C object CMakeFiles/communication__rosidl_generator_py.dir/rosidl_generator_py/communication/srv/_gait_switch_s.c.o[0m
+[4.285s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/communication/libcommunication__rosidl_generator_py.so[0m
+[4.324s] [ 90%] Built target communication__rosidl_generator_py
+[4.343s] [ 95%] [32mBuilding C object CMakeFiles/communication__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/communication/_communication_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.343s] [ 95%] [32mBuilding C object CMakeFiles/communication__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/communication/_communication_s.ep.rosidl_typesupport_c.c.o[0m
+[4.343s] [ 95%] [32mBuilding C object CMakeFiles/communication__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/communication/_communication_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.442s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/communication/communication_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.442s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/communication/communication_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.447s] [100%] [32m[1mLinking C shared library rosidl_generator_py/communication/communication_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.479s] [100%] Built target communication__rosidl_typesupport_c__pyext
+[4.480s] [100%] Built target communication__rosidl_typesupport_introspection_c__pyext
+[4.487s] [100%] Built target communication__rosidl_typesupport_fastrtps_c__pyext
+[4.497s] Invoked command in '/workspaces/ros_humble_mujoco_leo/leo/build/communication' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspaces/ros_humble_mujoco_leo/leo/build/communication -- -j16 -l16
+[4.498s] Invoking command in '/workspaces/ros_humble_mujoco_leo/leo/build/communication': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/ros_humble_mujoco_leo/leo/build/communication
+[4.505s] -- Install configuration: ""
+[4.505s] -- Execute custom install script
+[4.506s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/ament_index/resource_index/rosidl_interfaces/communication
+[4.515s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/actuator_cmds.h
+[4.522s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/actuator_cmds__functions.h
+[4.530s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/actuator_cmds__struct.h
+[4.538s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/actuator_cmds__type_support.h
+[4.546s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/motion_commands__functions.h
+[4.554s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/motion_commands__struct.h
+[4.562s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/motion_commands__type_support.h
+[4.569s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/touch_sensor__functions.h
+[4.578s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/touch_sensor__struct.h
+[4.586s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/touch_sensor__type_support.h
+[4.593s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/motion_commands.h
+[4.601s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/rosidl_generator_c__visibility_control.h
+[4.609s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/touch_sensor.h
+[4.617s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/gait_switch__functions.h
+[4.625s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/gait_switch__struct.h
+[4.633s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/gait_switch__type_support.h
+[4.640s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/simulation_reset__functions.h
+[4.648s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/simulation_reset__struct.h
+[4.656s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/simulation_reset__type_support.h
+[4.664s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/gait_switch.h
+[4.671s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/simulation_reset.h
+[4.679s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/environment/library_path.sh
+[4.686s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/environment/library_path.dsv
+[4.694s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/actuator_cmds__rosidl_typesupport_fastrtps_c.h
+[4.702s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/motion_commands__rosidl_typesupport_fastrtps_c.h
+[4.710s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/touch_sensor__rosidl_typesupport_fastrtps_c.h
+[4.718s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.726s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/gait_switch__rosidl_typesupport_fastrtps_c.h
+[4.734s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/simulation_reset__rosidl_typesupport_fastrtps_c.h
+[4.742s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/actuator_cmds.hpp
+[4.750s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/actuator_cmds__builder.hpp
+[4.758s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/actuator_cmds__struct.hpp
+[4.766s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/actuator_cmds__traits.hpp
+[4.773s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/actuator_cmds__type_support.hpp
+[4.780s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/motion_commands__builder.hpp
+[4.788s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/motion_commands__struct.hpp
+[4.796s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/motion_commands__traits.hpp
+[4.804s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/motion_commands__type_support.hpp
+[4.811s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/touch_sensor__builder.hpp
+[4.820s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/touch_sensor__struct.hpp
+[4.827s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/touch_sensor__traits.hpp
+[4.835s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/touch_sensor__type_support.hpp
+[4.842s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/motion_commands.hpp
+[4.850s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.858s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/touch_sensor.hpp
+[4.866s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/gait_switch__builder.hpp
+[4.873s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/gait_switch__struct.hpp
+[4.880s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/gait_switch__traits.hpp
+[4.887s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/gait_switch__type_support.hpp
+[4.894s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/simulation_reset__builder.hpp
+[4.901s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/simulation_reset__struct.hpp
+[4.909s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/simulation_reset__traits.hpp
+[4.917s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/simulation_reset__type_support.hpp
+[4.924s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/gait_switch.hpp
+[4.931s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/simulation_reset.hpp
+[4.939s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/actuator_cmds__rosidl_typesupport_fastrtps_cpp.hpp
+[4.947s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/motion_commands__rosidl_typesupport_fastrtps_cpp.hpp
+[4.954s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/touch_sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[4.961s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.968s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/gait_switch__rosidl_typesupport_fastrtps_cpp.hpp
+[4.975s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/simulation_reset__rosidl_typesupport_fastrtps_cpp.hpp
+[4.984s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/actuator_cmds__rosidl_typesupport_introspection_c.h
+[4.992s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/motion_commands__rosidl_typesupport_introspection_c.h
+[5.000s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/touch_sensor__rosidl_typesupport_introspection_c.h
+[5.008s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.015s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/gait_switch__rosidl_typesupport_introspection_c.h
+[5.022s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/simulation_reset__rosidl_typesupport_introspection_c.h
+[5.030s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/actuator_cmds__rosidl_typesupport_introspection_cpp.hpp
+[5.038s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/motion_commands__rosidl_typesupport_introspection_cpp.hpp
+[5.045s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/msg/detail/touch_sensor__rosidl_typesupport_introspection_cpp.hpp
+[5.052s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/gait_switch__rosidl_typesupport_introspection_cpp.hpp
+[5.059s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/include/communication/communication/srv/detail/simulation_reset__rosidl_typesupport_introspection_cpp.hpp
+[5.067s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/environment/pythonpath.sh
+[5.074s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/environment/pythonpath.dsv
+[5.082s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication-0.0.0-py3.10.egg-info/PKG-INFO
+[5.089s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.095s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.102s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication-0.0.0-py3.10.egg-info/top_level.txt
+[5.112s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/__init__.py
+[5.119s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/_communication_s.ep.rosidl_typesupport_c.c
+[5.126s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/_communication_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.133s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/_communication_s.ep.rosidl_typesupport_introspection_c.c
+[5.140s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/communication_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.147s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/communication_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.154s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/communication_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.162s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/libcommunication__rosidl_generator_py.so
+[5.169s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/msg/__init__.py
+[5.175s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/msg/_actuator_cmds.py
+[5.182s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/msg/_actuator_cmds_s.c
+[5.188s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/msg/_motion_commands.py
+[5.195s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/msg/_motion_commands_s.c
+[5.202s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/msg/_touch_sensor.py
+[5.210s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/msg/_touch_sensor_s.c
+[5.218s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/srv/__init__.py
+[5.225s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/srv/_gait_switch.py
+[5.232s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/srv/_gait_switch_s.c
+[5.240s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/srv/_simulation_reset.py
+[5.249s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/srv/_simulation_reset_s.c
+[5.257s] -- Up-to-date symlink: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/communication_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.257s] -- Up-to-date symlink: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/communication_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.257s] -- Up-to-date symlink: /workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/communication_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.257s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/msg/ActuatorCmds.idl
+[5.266s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/msg/MotionCommands.idl
+[5.274s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/msg/TouchSensor.idl
+[5.283s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/srv/SimulationReset.idl
+[5.292s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/srv/GaitSwitch.idl
+[5.300s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/msg/ActuatorCmds.msg
+[5.308s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/msg/MotionCommands.msg
+[5.317s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/msg/TouchSensor.msg
+[5.325s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/srv/SimulationReset.srv
+[5.334s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/srv/SimulationReset_Request.msg
+[5.343s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/srv/SimulationReset_Response.msg
+[5.351s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/srv/GaitSwitch.srv
+[5.360s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/srv/GaitSwitch_Request.msg
+[5.368s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/srv/GaitSwitch_Response.msg
+[5.377s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/ament_index/resource_index/package_run_dependencies/communication
+[5.385s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/ament_index/resource_index/parent_prefix_path/communication
+[5.394s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/environment/ament_prefix_path.sh
+[5.403s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/environment/ament_prefix_path.dsv
+[5.411s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/environment/path.sh
+[5.420s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/environment/path.dsv
+[5.427s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/local_setup.bash
+[5.435s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/local_setup.sh
+[5.443s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/local_setup.zsh
+[5.450s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/local_setup.dsv
+[5.459s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/package.dsv
+[5.468s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/ament_index/resource_index/packages/communication
+[5.476s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/rosidl_cmake-extras.cmake
+[5.486s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.494s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.503s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/ament_cmake_export_libraries-extras.cmake
+[5.511s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/ament_cmake_export_targets-extras.cmake
+[5.521s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.529s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.538s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/communicationConfig.cmake
+[5.546s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/communicationConfig-version.cmake
+[5.555s] -- Symlinking: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/package.xml
+[5.564s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/lib/libcommunication__rosidl_generator_c.so
+[5.564s] -- Set runtime path of "/workspaces/ros_humble_mujoco_leo/leo/install/communication/lib/libcommunication__rosidl_generator_c.so" to ""
+[5.564s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/lib/libcommunication__rosidl_typesupport_fastrtps_c.so
+[5.565s] -- Set runtime path of "/workspaces/ros_humble_mujoco_leo/leo/install/communication/lib/libcommunication__rosidl_typesupport_fastrtps_c.so" to ""
+[5.565s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/lib/libcommunication__rosidl_typesupport_fastrtps_cpp.so
+[5.565s] -- Set runtime path of "/workspaces/ros_humble_mujoco_leo/leo/install/communication/lib/libcommunication__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.565s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/lib/libcommunication__rosidl_typesupport_introspection_c.so
+[5.566s] -- Set runtime path of "/workspaces/ros_humble_mujoco_leo/leo/install/communication/lib/libcommunication__rosidl_typesupport_introspection_c.so" to ""
+[5.566s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/lib/libcommunication__rosidl_typesupport_c.so
+[5.566s] -- Set runtime path of "/workspaces/ros_humble_mujoco_leo/leo/install/communication/lib/libcommunication__rosidl_typesupport_c.so" to ""
+[5.566s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/lib/libcommunication__rosidl_typesupport_introspection_cpp.so
+[5.567s] -- Set runtime path of "/workspaces/ros_humble_mujoco_leo/leo/install/communication/lib/libcommunication__rosidl_typesupport_introspection_cpp.so" to ""
+[5.567s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/lib/libcommunication__rosidl_typesupport_cpp.so
+[5.567s] -- Set runtime path of "/workspaces/ros_humble_mujoco_leo/leo/install/communication/lib/libcommunication__rosidl_typesupport_cpp.so" to ""
+[5.599s] Listing '/workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication'...
+[5.600s] Compiling '/workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/__init__.py'...
+[5.600s] Listing '/workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/msg'...
+[5.600s] Compiling '/workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/msg/__init__.py'...
+[5.600s] Compiling '/workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/msg/_actuator_cmds.py'...
+[5.600s] Compiling '/workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/msg/_motion_commands.py'...
+[5.600s] Compiling '/workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/msg/_touch_sensor.py'...
+[5.600s] Listing '/workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/srv'...
+[5.600s] Compiling '/workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/srv/__init__.py'...
+[5.600s] Compiling '/workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/srv/_gait_switch.py'...
+[5.600s] Compiling '/workspaces/ros_humble_mujoco_leo/leo/install/communication/local/lib/python3.10/dist-packages/communication/srv/_simulation_reset.py'...
+[5.604s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/lib/libcommunication__rosidl_generator_py.so
+[5.604s] -- Set runtime path of "/workspaces/ros_humble_mujoco_leo/leo/install/communication/lib/libcommunication__rosidl_generator_py.so" to ""
+[5.604s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/export_communication__rosidl_generator_cExport.cmake
+[5.604s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/export_communication__rosidl_generator_cExport-noconfig.cmake
+[5.605s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/export_communication__rosidl_typesupport_fastrtps_cExport.cmake
+[5.605s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/export_communication__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.605s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/export_communication__rosidl_generator_cppExport.cmake
+[5.605s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/export_communication__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.605s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/export_communication__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.606s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/communication__rosidl_typesupport_introspection_cExport.cmake
+[5.606s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/communication__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.606s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/communication__rosidl_typesupport_cExport.cmake
+[5.606s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/communication__rosidl_typesupport_cExport-noconfig.cmake
+[5.606s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/communication__rosidl_typesupport_introspection_cppExport.cmake
+[5.606s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/communication__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.607s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/communication__rosidl_typesupport_cppExport.cmake
+[5.607s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/communication__rosidl_typesupport_cppExport-noconfig.cmake
+[5.607s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/export_communication__rosidl_generator_pyExport.cmake
+[5.607s] -- Installing: /workspaces/ros_humble_mujoco_leo/leo/install/communication/share/communication/cmake/export_communication__rosidl_generator_pyExport-noconfig.cmake
+[5.610s] Invoked command in '/workspaces/ros_humble_mujoco_leo/leo/build/communication' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspaces/ros_humble_mujoco_leo/leo/build/communication

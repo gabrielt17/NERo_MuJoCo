@@ -1,0 +1,1 @@
+/root/ros2_ws/build/communication/rosidl_typesupport_introspection_c/communication/msg/detail/touch_sensor__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,1 @@
+/root/ros2_ws/build/communication/rosidl_generator_cpp/communication/srv/detail/simulation_reset__type_support.hpp
