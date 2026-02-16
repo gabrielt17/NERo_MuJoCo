@@ -1,1 +1,0 @@
-/root/ros2_ws/build/communication/rosidl_cmake/srv/GaitSwitch_Request.msg

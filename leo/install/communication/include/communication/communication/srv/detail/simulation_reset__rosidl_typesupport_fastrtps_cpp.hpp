@@ -1,1 +1,0 @@
-/workspaces/ros_humble_mujoco_leo/leo/build/communication/rosidl_typesupport_fastrtps_cpp/communication/srv/detail/simulation_reset__rosidl_typesupport_fastrtps_cpp.hpp

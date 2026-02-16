@@ -1,1 +1,0 @@
-/root/ros2_ws/build/aerial_system_mujoco/launch/simulation_launch.py

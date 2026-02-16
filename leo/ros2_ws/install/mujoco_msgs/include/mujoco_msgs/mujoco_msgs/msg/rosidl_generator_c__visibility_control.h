@@ -1,1 +1,0 @@
-/root/ros2_ws/build/mujoco_msgs/rosidl_generator_c/mujoco_msgs/msg/rosidl_generator_c__visibility_control.h

@@ -1,1 +1,0 @@
-/root/ros2_ws/build/communication/rosidl_typesupport_fastrtps_cpp/communication/srv/detail/gait_switch__rosidl_typesupport_fastrtps_cpp.hpp

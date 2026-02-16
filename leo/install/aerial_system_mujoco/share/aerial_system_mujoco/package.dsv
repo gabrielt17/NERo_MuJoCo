@@ -1,9 +1,0 @@
-source;share/aerial_system_mujoco/hook/pythonpath.ps1
-source;share/aerial_system_mujoco/hook/pythonpath.dsv
-source;share/aerial_system_mujoco/hook/pythonpath.sh
-source;share/aerial_system_mujoco/hook/ament_prefix_path.ps1
-source;share/aerial_system_mujoco/hook/ament_prefix_path.dsv
-source;share/aerial_system_mujoco/hook/ament_prefix_path.sh
-source;../../build/aerial_system_mujoco/share/aerial_system_mujoco/hook/pythonpath_develop.ps1
-source;../../build/aerial_system_mujoco/share/aerial_system_mujoco/hook/pythonpath_develop.dsv
-source;../../build/aerial_system_mujoco/share/aerial_system_mujoco/hook/pythonpath_develop.sh

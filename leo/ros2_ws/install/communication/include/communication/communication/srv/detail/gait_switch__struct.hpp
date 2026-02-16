@@ -1,1 +1,0 @@
-/root/ros2_ws/build/communication/rosidl_generator_cpp/communication/srv/detail/gait_switch__struct.hpp

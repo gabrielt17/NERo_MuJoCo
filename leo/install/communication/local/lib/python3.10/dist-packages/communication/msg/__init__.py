@@ -1,1 +1,0 @@
-/workspaces/ros_humble_mujoco_leo/leo/build/communication/rosidl_generator_py/communication/msg/__init__.py

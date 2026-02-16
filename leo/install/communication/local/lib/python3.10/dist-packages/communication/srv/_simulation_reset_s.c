@@ -1,1 +1,0 @@
-/workspaces/ros_humble_mujoco_leo/leo/build/communication/rosidl_generator_py/communication/srv/_simulation_reset_s.c

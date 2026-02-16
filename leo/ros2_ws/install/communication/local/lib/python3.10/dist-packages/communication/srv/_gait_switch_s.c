@@ -1,1 +1,0 @@
-/root/ros2_ws/build/communication/rosidl_generator_py/communication/srv/_gait_switch_s.c

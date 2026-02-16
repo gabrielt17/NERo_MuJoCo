@@ -1,1 +1,0 @@
-/root/ros2_ws/build/mujoco_msgs/ament_cmake_core/mujoco_msgsConfig-version.cmake

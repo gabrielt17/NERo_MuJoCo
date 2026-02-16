@@ -1,1 +1,0 @@
-/workspaces/ros_humble_mujoco_leo/leo/build/communication/rosidl_typesupport_introspection_cpp/communication/msg/detail/motion_commands__rosidl_typesupport_introspection_cpp.hpp

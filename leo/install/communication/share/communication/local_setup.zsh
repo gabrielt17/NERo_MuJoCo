@@ -1,1 +1,0 @@
-/workspaces/ros_humble_mujoco_leo/leo/build/communication/ament_cmake_environment_hooks/local_setup.zsh

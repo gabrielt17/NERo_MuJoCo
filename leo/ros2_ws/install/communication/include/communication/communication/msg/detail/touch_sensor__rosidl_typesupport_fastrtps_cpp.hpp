@@ -1,1 +1,0 @@
-/root/ros2_ws/build/communication/rosidl_typesupport_fastrtps_cpp/communication/msg/detail/touch_sensor__rosidl_typesupport_fastrtps_cpp.hpp

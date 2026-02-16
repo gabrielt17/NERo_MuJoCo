@@ -1,1 +1,0 @@
-/workspaces/ros_humble_mujoco_leo/leo/build/communication/rosidl_generator_c/communication/msg/actuator_cmds.h

@@ -1,1 +1,0 @@
-/root/ros2_ws/build/communication/rosidl_generator_c/communication/msg/detail/touch_sensor__struct.h

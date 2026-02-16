@@ -1,1 +1,0 @@
-/root/ros2_ws/build/communication/rosidl_generator_c/communication/msg/motion_commands.h

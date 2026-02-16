@@ -1,1 +1,0 @@
-/root/ros2_ws/build/mujoco_msgs/rosidl_generator_py/mujoco_msgs/_mujoco_msgs_s.ep.rosidl_typesupport_fastrtps_c.c

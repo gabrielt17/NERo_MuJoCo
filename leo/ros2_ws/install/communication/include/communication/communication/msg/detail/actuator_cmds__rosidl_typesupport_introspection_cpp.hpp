@@ -1,1 +1,0 @@
-/root/ros2_ws/build/communication/rosidl_typesupport_introspection_cpp/communication/msg/detail/actuator_cmds__rosidl_typesupport_introspection_cpp.hpp

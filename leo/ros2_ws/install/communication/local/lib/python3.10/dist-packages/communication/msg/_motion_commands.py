@@ -1,1 +1,0 @@
-/root/ros2_ws/build/communication/rosidl_generator_py/communication/msg/_motion_commands.py
